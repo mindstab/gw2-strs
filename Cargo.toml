@@ -1,0 +1,14 @@
+[package]
+name = "gw2-strs"
+version = "0.1.0"
+authors = ["mindstab <12297229+mindstab@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1.4.0"
+plain = "0.2"
+string-dec = { git = "https://github.com/mindstab/gw2-dec" }
+bitvec = "0.20"
+byte-slice-cast = "1.0.0"
